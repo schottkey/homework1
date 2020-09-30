@@ -4,5 +4,5 @@
 .gradle
 out/
 build/
-results/
-plugins/
+/results/
+/plugins/
