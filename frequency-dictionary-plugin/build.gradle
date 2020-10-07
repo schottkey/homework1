@@ -3,6 +3,7 @@ apply plugin: "base"
 dependencies {
     implementation project(":plugin-interface")
     testImplementation "org.apache.commons:commons-lang3:$commonsLangVersion"
+    implementation "com.google.guava:guava:$guavaVersion"
 }
 
 task copyPlugin(type: Copy) {
