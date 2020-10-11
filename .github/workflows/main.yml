@@ -20,5 +20,5 @@ jobs:
         with:
           dependencies-cache-enabled: true
           arguments: clean build
-      - name: Run integration tests
-        run: bash integration-test/tests.sh
+#      - name: Run integration tests
+#        run: bash integration-test/tests.sh
